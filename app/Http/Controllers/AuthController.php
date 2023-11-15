@@ -29,6 +29,9 @@ class AuthController extends Controller
         Category::create([
             'name' => $request->name
         ]);
+        
+        
+        
 
         return back()->with(['message' => 'Register Success']);
 
